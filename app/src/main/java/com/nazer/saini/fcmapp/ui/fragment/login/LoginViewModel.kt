@@ -23,13 +23,11 @@ import com.nazer.saini.fcmapp.util.PrintLog
 import com.nazer.saini.fcmapp.util.Velidations
 
 
-class LoginViewModel(var callBack: BaseObserver, var loginCallback: CallBackLogin) : Observable() {
+class LoginViewModel(var callBack: BaseObserver, var loginCallback: CallBackLogin) :BaseModel()  {
     /**
      * https://www.azoft.com/blog/mvvm-android-data-binding/
      */
 
-    @Inject
-    lateinit var baseModel: BaseModel
     @Inject
     lateinit var fcmModel: FcmModel
 

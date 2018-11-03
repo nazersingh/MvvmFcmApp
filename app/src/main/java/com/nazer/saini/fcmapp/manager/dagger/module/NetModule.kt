@@ -31,12 +31,6 @@ class NetModule {
 
     @Provides
     @Singleton
-    fun getBaseModelapiCall(): BaseModel {
-        return BaseModel()
-    }
-
-    @Provides
-    @Singleton
     fun getFcmModel(): FcmModel {
         return FcmModel()
     }
