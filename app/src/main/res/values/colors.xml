@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#dc661c</color>
+    <color name="colorPrimaryDark">#dc661c</color>
+    <color name="colorAccent">#dc661c</color>
+
+
+    <color name="transparent">#00000000</color>
+    <color name="transparentBlack">#a7000000</color>
+    <color name="black">#000000</color>
+    <color name="white">#ffffff</color>
+    <color name="transparent_chat_date">#3dfafafa</color>
+
+    <color name="lineColorBlack">#000000</color>
+    <color name="lineColorGrey">#666666</color>
+    <color name="edittextLinegrey">#afa7a7</color>
+    <color name="border_color">#dc661c</color>
+
+    <color name="textColorWhite">#ffffff</color>
+    <color name="textColorBlue">#0239a7</color>
+    <color name="textInputLayoutHintColor">#9b9b9b</color>
+    <color name="textColorBlack">#000000</color>
+    <color name="textColorGreen">#dc661c</color>
+    <color name="textColorGrey">#9c9999</color>
+    <color name="chat_send_message_buuble_color">#9cec32</color>
+    <color name="chat_receive_message_buuble_color">#ffffff</color>
+    <color name="textColorDarkGrey">#716f6f</color>
+    <color name="textColorRed">#fa000d</color>
+    <color name="splashGreencolor">#dc661c</color>
+    <color name="EditTextColor">#000000</color>
+    <color name="TabColorSelected">#dc661c</color>
+    <color name="TabColorUnSelected">#FF4081</color>
+    <color name="ToggleButtonColor">#FF4081</color>
+    <color name="TrackerProgressColor">#FF4081</color>
+    <color name="ButtonColorGreen">#dc661c</color>
+    <color name="repplecolor">#727c74</color>
+    <color name="ButtonColorWhite">#ffffff</color>
+    <color name="RatingGold">#FFDF00</color>
+
+</resources>

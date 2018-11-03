@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <data>
+
+        <variable
+            name="signup"
+            type="com.nazer.saini.fcmapp.ui.fragment.signup.email.SignUpModelView" />
+    </data>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/white"
+        android:clickable="true"
+        android:orientation="vertical"
+        android:padding="@dimen/dimen_10dp">
+        <TextView
+            style="@style/TextViewLargeBlack"
+            android:layout_marginTop="@dimen/dimen_40dp"
+            android:text="@string/sign_up_to_friends"
+            android:textStyle="bold" />
+        <android.support.design.widget.TextInputLayout
+            android:id="@+id/text_input_email"
+            style="@style/MyTextInputLayout"
+            android:layout_marginTop="@dimen/dimen_30dp"
+            android:hint="@string/hint_email_phone"
+            android:theme="@style/MyTextInputLayout">
+
+            <EditText
+                android:id="@+id/ed_email"
+                style="@style/MyEditTextStyle"
+                android:addTextChangedListener="@{signup.getEmailTextWatcher}"
+                android:ellipsize="end"
+                android:inputType="textEmailAddress"
+                android:maxLength="30"
+                android:singleLine="true"
+                android:text="@{signup.email}" />
+
+        </android.support.design.widget.TextInputLayout>
+
+        <android.support.design.widget.TextInputLayout
+            android:id="@+id/text_input_password"
+            style="@style/MyTextInputLayout"
+            android:hint="@string/hint_password"
+            android:theme="@style/MyTextInputLayout"
+            app:passwordToggleEnabled="true"
+            app:passwordToggleTint="@color/colorPrimaryDark">
+
+            <EditText
+                android:id="@+id/ed_password"
+                style="@style/MyEditTextStyle"
+                android:addTextChangedListener="@{signup.getPasswordTextWatcher}"
+                android:inputType="textPassword"
+                android:maxLength="30"
+                android:singleLine="true"
+                android:text="@{signup.password}" />
+        </android.support.design.widget.TextInputLayout><android.support.design.widget.TextInputLayout
+            style="@style/MyTextInputLayout"
+            android:hint="@string/hint_confirm_password"
+            android:theme="@style/MyTextInputLayout"
+            app:passwordToggleEnabled="true"
+            app:passwordToggleTint="@color/colorPrimaryDark">
+
+            <EditText
+                style="@style/MyEditTextStyle"
+                android:addTextChangedListener="@{signup.getConfirmPasswordTextWatcher}"
+                android:inputType="textPassword"
+                android:maxLength="30"
+                android:singleLine="true"
+                android:text="@{signup.password}" />
+        </android.support.design.widget.TextInputLayout>
+        <android.support.v7.widget.AppCompatButton
+            android:id="@+id/btn_signIn"
+            style="@style/ButtonGreenStyle"
+            android:layout_marginTop="@dimen/dimen_30dp"
+            android:onClick="@{(view)->signup.callSignUp(view)}"
+            android:text="@string/sign_up"
+            android:theme="@style/ButtonGreenStyle" />
+
+        <LinearLayout
+            android:layout_margin="@dimen/dimen_10dp"
+            style="@style/LinearLayoutvertical"
+            android:layout_weight=".5" />
+
+        <TextView
+            android:onClick="@{(view)->signup.signIn(view)}"
+            android:gravity="center"
+            style="@style/TextViewMediumBlack"
+            android:text="@string/already_have_account" />
+    </LinearLayout>
+</layout>

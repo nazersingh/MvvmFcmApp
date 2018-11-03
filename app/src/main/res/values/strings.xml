@@ -1,0 +1,62 @@
+<resources>
+    <string name="app_name">Friends</string>
+    <string name="app_market_link">g</string>
+    <string name="app_google_play_store_link">temp</string>
+
+    <string name="facebook_app_id">734988870176884</string>
+    <string name="fb_login_protocol_scheme">fb734988870176884</string>
+
+
+    <string name="no_internet">Your mobile is not connected to the internet. Please connect to an active internet connection.</string>
+
+    <string name="OK">Ok</string>
+    <string name="sign_in_to_friends">Sign In to Friends</string>
+    <string name="sign_up_to_friends">Sign Up to Friends</string>
+    <string name="hint_email_phone">Enter Email/Phone </string>
+    <string name="hint_password">Password</string>
+    <string name="hint_old_password">Old password</string>
+    <string name="hint_new_password">New password</string>
+    <string name="hint_confirm_password">Confirm password</string>
+    <string name="hint_forgot_password">Forgot Password?</string>
+    <string name="ttf_file_path">Mark Simonson - Proxima Nova Regular.otf</string>
+    <string name="sign_up_to_fb">Sign up with Facebook</string>
+    <string name="sign_in_to_fb">Sign in with Facebook</string>
+    <string name="sign_in">Sign in</string>
+    <string name="already_have_account">Already have an account?&#160;</string>
+    <string name="sign_up">Sign up</string>
+
+    <string name="err_enter_email">Please enter email</string>
+    <string name="err_enter_mobile_number">Please enter mobile number</string>
+    <string name="err_check_mobile_number">Please check your mobile number</string>
+    <string name="err_enter_password">Please enter password</string>
+    <string name="err_password_must_alpha_numeric">Password must be characters including a number and special character</string>
+    <string name="err_password_length_more">Password must be atleast 6 characters including a number and special character</string>
+    <string name="err_enter_old_password">Enter old password</string>
+    <string name="err_enter_new_password">Enter new password</string>
+    <string name="err_msg_confirmpassword">Please enter confirm password</string>
+    <string name="err_msg_confirmpassword_not_match">New password and Confirm password should be same</string>
+    <string name="err_msg_signup_confirmpassword_not_match">Password and Confirm password must be same</string>
+    <string name="err_msg_password_same_old_new">Old password and Confirm password must not be same</string>
+
+    <string name="err_msg_space">Please remove spaces</string>
+    <string name="err_valid_email">Please enter valid email</string>
+    <string name="forgot_password">Forgot Your Password?</string>
+    <string name="forgot_password_text">Enter your email below and we will send you a link to reset your password</string>
+    <string name="submit">Submit</string>
+    <string name="resend_link">Resend Link</string>
+    <string name="terms">Terms</string>
+    <string name="facebook">Facebook</string>
+    <string name="gmail">Gmail</string>
+    <string name="new_user">Don\'t have account? Sign up</string>
+    <string name="friends_list">Friends</string>
+    <string name="map">Map</string>
+    <string name="invite">Invite</string>
+    <string name="sign_up_with_email">Sign up with Email</string>
+    <string name="sign_up_with_mobile_number">Sign up with mobile number</string>
+    <string name="twitter">Twitter</string>
+    <string name="linkdln">Linkdln</string>
+    <string name="sign_in_with_email">Sign in with email</string>
+    <string name="verify">Verify</string>
+    <string name="enter_otp">Enter otp</string>
+    <string name="logout_message">"Do you want to logout?"</string>
+</resources>

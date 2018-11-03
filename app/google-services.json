@@ -1,0 +1,63 @@
+{
+  "project_info": {
+    "project_number": "1028476140726",
+    "firebase_url": "https://fcmapp-53226.firebaseio.com",
+    "project_id": "fcmapp-53226",
+    "storage_bucket": "fcmapp-53226.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1028476140726:android:25512db1a56271d5",
+        "android_client_info": {
+          "package_name": "com.nazer.saini.fcmapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1028476140726-umqd70c2hf0e3oee7dg8ucm94jrms4oc.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.nazer.saini.fcmapp",
+            "certificate_hash": "1f090fdeed06fd3b451ce47daae6a7151554235d"
+          }
+        },
+        {
+          "client_id": "1028476140726-bk5nufcir9ve4amvhgb8im90s6ugfg68.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.nazer.saini.fcmapp",
+            "certificate_hash": "b11412bff3cba58ae5ed156b10b77c23b16e60a4"
+          }
+        },
+        {
+          "client_id": "1028476140726-8ir5ql14v72o09re9la5n8m5u2gi1dq6.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCu8Hb_oeSyk_6DhxjyVicebyZHSFdU70k"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1028476140726-8ir5ql14v72o09re9la5n8m5u2gi1dq6.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

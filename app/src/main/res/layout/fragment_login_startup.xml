@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.testapp.fragments.CustomFragment">
+
+    <data>
+
+        <variable
+            name="fragment"
+            type="com.nazer.saini.fcmapp.ui.fragment.loginstartup.LoginStartUpFragment" />
+    </data>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <android.support.v4.view.ViewPager
+            android:background="@color/repplecolor"
+            android:id="@+id/viewpager"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:background="@color/transparent"
+            android:clickable="true"
+            android:orientation="vertical"
+            android:padding="@dimen/dimen_10dp">
+
+            <android.support.v7.widget.AppCompatButton
+                android:id="@+id/btn_fb_login"
+                style="@style/ButtonGreenStyle"
+                android:layout_marginTop="@dimen/dimen_10dp"
+                android:layout_marginRight="@dimen/dimen_2dp"
+                android:onClick="@{(view)->fragment.onfacebookClick(view)}"
+                android:text="@string/facebook"
+                android:theme="@style/ButtonGreenStyle" />
+
+            <android.support.v7.widget.AppCompatButton
+                android:id="@+id/btn_gmail_login"
+                style="@style/ButtonGreenStyle"
+                android:layout_marginLeft="@dimen/dimen_2dp"
+                android:layout_marginTop="@dimen/dimen_10dp"
+                android:onClick="@{(view)->fragment.onGmailClick(view)}"
+                android:text="@string/gmail"
+                android:theme="@style/ButtonGreenStyle" />
+
+            <android.support.v7.widget.AppCompatButton
+                style="@style/ButtonGreenStyle"
+                android:layout_marginLeft="@dimen/dimen_2dp"
+                android:layout_marginTop="@dimen/dimen_10dp"
+                android:onClick="@{(view)->fragment.onTwitterClick(view)}"
+                android:text="@string/twitter"
+                android:theme="@style/ButtonGreenStyle" />
+
+            <android.support.v7.widget.AppCompatButton
+                style="@style/ButtonGreenStyle"
+                android:layout_marginLeft="@dimen/dimen_2dp"
+                android:layout_marginTop="@dimen/dimen_10dp"
+                android:onClick="@{(view)->fragment.onLinkedlnClick(view)}"
+                android:text="@string/linkdln"
+                android:theme="@style/ButtonGreenStyle" />
+            <android.support.v7.widget.AppCompatButton
+                style="@style/ButtonGreenStyle"
+                android:layout_marginLeft="@dimen/dimen_2dp"
+                android:layout_marginTop="@dimen/dimen_10dp"
+                android:onClick="@{(view)->fragment.onLoginWithEmailClick(view)}"
+                android:text="@string/sign_in_with_email"
+                android:theme="@style/ButtonGreenStyle" />
+
+            <android.support.v7.widget.AppCompatButton
+                android:id="@+id/btn_email"
+                style="@style/ButtonGreenStyle"
+                android:layout_marginLeft="@dimen/dimen_2dp"
+                android:layout_marginTop="@dimen/dimen_10dp"
+                android:onClick="@{(view)->fragment.onEmailRegisterClick(view)}"
+                android:text="@string/sign_up_with_email"
+                android:theme="@style/ButtonGreenStyle" />
+
+            <android.support.v7.widget.AppCompatButton
+                style="@style/ButtonGreenStyle"
+                android:layout_marginLeft="@dimen/dimen_2dp"
+                android:layout_marginTop="@dimen/dimen_10dp"
+                android:onClick="@{(view)->fragment.onMobileRegisterClick(view)}"
+                android:text="@string/sign_up_with_mobile_number"
+                android:theme="@style/ButtonGreenStyle" />
+        </LinearLayout>
+
+    </RelativeLayout>
+</layout>

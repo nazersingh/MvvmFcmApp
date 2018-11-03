@@ -1,0 +1,210 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="fontFamily">@font/oswald_regular</item>
+        <!--<item name="android:windowFullscreen">true</item> hide the statusbar-->
+    </style>
+
+
+<!--**********************************************************************************Text View Styles-->
+    <style name="TextViewSmallWhite" parent="android:Widget.TextView">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">@color/textColorWhite</item>
+        <item name="android:textSize">@dimen/text_12sp</item>
+    </style>
+    <style name="TextViewMediumWhite" parent="android:Widget.TextView">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">@color/textColorWhite</item>
+        <item name="android:textSize">@dimen/text_14sp</item>
+    </style>
+    <style name="TextViewLargeWhite" parent="android:Widget.TextView">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">@color/textColorWhite</item>
+        <item name="android:textSize">@dimen/text_18sp</item>
+    </style>
+    <style name="TextViewExtraLargeWhite" parent="android:Widget.TextView">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">@color/textColorWhite</item>
+        <item name="android:textSize">@dimen/text_25sp</item>
+    </style>
+    <style name="TextViewDoubleExtraLargeWhite" parent="android:Widget.TextView">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">@color/textColorWhite</item>
+        <item name="android:textSize">@dimen/text_40sp</item>
+    </style>
+
+    <style name="TextViewSmallBlack" parent="android:Widget.TextView">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">@color/textColorBlack</item>
+        <item name="android:textSize">@dimen/text_12sp</item>
+    </style>
+    <style name="TextViewMediumBlack" parent="android:Widget.TextView">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">@color/textColorBlack</item>
+        <item name="android:textSize">@dimen/text_14sp</item>
+    </style>
+    <style name="TextViewLargeBlack" parent="android:Widget.TextView">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">@color/textColorBlack</item>
+        <item name="android:textSize">@dimen/text_18sp</item>
+    </style>
+    <style name="TextViewExtraLargeBlack" parent="android:Widget.TextView">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">@color/textColorBlack</item>
+        <item name="android:textSize">@dimen/text_30sp</item>
+    </style>
+    <style name="TextViewSmallTransparentBlack" parent="android:Widget.TextView">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">@color/transparentBlack</item>
+        <item name="android:textSize">@dimen/text_12sp</item>
+    </style>
+
+    <style name="TextViewMediumTransparentBlack" parent="android:Widget.TextView">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">@color/transparentBlack</item>
+        <item name="android:textSize">@dimen/text_14sp</item>
+    </style>
+
+    <style name="TextViewLargeTransparentBlack" parent="android:Widget.TextView">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">@color/transparentBlack</item>
+        <item name="android:textSize">@dimen/text_18sp</item>
+    </style>
+    <style name="TextViewExtraLargeTransparentBlack" parent="android:Widget.TextView">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">@color/transparentBlack</item>
+        <item name="android:textSize">@dimen/text_30sp</item>
+    </style>
+<!--**************************************************************************************TextInputLayout-->
+    <style name="MyTextInputLayout" >
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <!-- Hint color and label color in FALSE state -->
+        <item name="android:textColorHint">@color/textInputLayoutHintColor</item>
+        <item name="android:textSize">@dimen/text_20sp</item>
+        <!-- Label color in TRUE state and bar color FALSE and TRUE State -->
+        <item name="colorAccent">@color/textColorRed</item>
+        <item name="colorControlActivated">@color/colorPrimaryDark</item>
+        <item name="colorControlNormal">@color/edittextLinegrey</item>
+        <item name="colorPrimary">@color/black</item>
+        <item name="colorPrimaryDark">@color/white</item>
+
+
+    </style>
+
+    <!--******************************************************************************EditText Style-->
+
+
+
+
+    <style name="MyEditTextStyle" parent="android:Widget.EditText">
+
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">@color/EditTextColor</item>
+        <item name="android:textSize">@dimen/text_16sp</item>
+    </style>
+
+    <style name="MyEditTextBlackStyle" parent="android:Widget.EditText">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="android:textSize">@dimen/text_16sp</item>
+    </style>
+
+    <!--****************************************************************************Dialogue Style-->
+    <style name="DialogTheme" >
+        <item name="colorAccent">@color/colorPrimaryDark</item>
+        <item name="android:actionMenuTextColor">@color/colorPrimaryDark</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowNoTitle">false</item>
+    </style>
+    <style name="FullScreenDialogStyle" >
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowFullscreen">true</item>
+        <item name="android:windowIsFloating">false</item>
+    </style>
+
+    <!--******************************************************************LinearLayoutStyles-->
+    <style name="LinearLayoutvertical" >
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:orientation">vertical</item>
+    </style>
+    <style name="LinearLayoutHorizontal" >
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:orientation">horizontal</item>
+    </style>
+
+    <!--******************************************************************************TabLayout-->
+    <style name="CustomTabs" parent="TextAppearance.Design.Tab">
+        <item name="android:textSize">@dimen/text_14sp</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="android:textColor">@color/TabColorUnSelected</item>
+    </style>
+
+<!--***************************************************************************************CheckBox Style-->
+
+    <style name="MyCheckBox" parent="Theme.AppCompat.Light">
+        <item name="colorControlNormal">@color/colorPrimary</item>
+        <item name="colorControlActivated">@color/colorAccent</item>
+    </style>
+<!--******************************************************************************ButtonStyle-->
+    <style name="ButtonGreenStyle" parent="Widget.AppCompat.Button.Colored">
+        <item name="android:foreground">?attr/selectableItemBackground</item>
+        <item name="android:background">@color/ButtonColorGreen</item>
+        <item name="android:textSize">@dimen/text_18sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="colorButtonNormal">@color/ButtonColorGreen</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+    <style name="ButtonGreenSmallStyle" parent="Widget.AppCompat.Button.Colored">
+        <item name="android:textAllCaps">false</item>
+        <item name="android:background">@color/ButtonColorGreen</item>
+        <item name="android:foreground">?attr/selectableItemBackground</item>
+        <item name="android:textSize">@dimen/text_14sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="colorButtonNormal">@color/ButtonColorGreen</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">@dimen/dimen_35dp</item>
+    </style>
+    <style name="ButtonGreenExtraSmallStyle" parent="Widget.AppCompat.Button.Colored">
+        <item name="android:background">@color/ButtonColorGreen</item>
+        <item name="android:foreground">?attr/selectableItemBackground</item>
+        <item name="android:textSize">@dimen/text_10sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="colorButtonNormal">@color/ButtonColorGreen</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">@dimen/dimen_30dp</item>
+    </style>
+
+
+
+
+</resources>
+
